@@ -19,5 +19,5 @@ S = "${WORKDIR}/git"
 inherit autotools
 
 # The autotools configuration I am basing this on seems to have a problem with a race condition when parallel make is enabled
-PARALLEL_MAKE = ""
+#PARALLEL_MAKE = ""
 
